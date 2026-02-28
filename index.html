@@ -1,5 +1,228 @@
-<html>
-  <body>
-    <h3>Test Commit</h3>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsy Andrade - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .degree {
+            font-size: 1.1em;
+            opacity: 0.95;
+            margin-bottom: 5px;
+        }
+
+        .specialization {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .profile-section {
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #667eea;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .summary {
+            padding: 30px 20px;
+            background-color: #fafafa;
+            border-bottom: 1px solid #eee;
+        }
+
+        .summary h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .summary p {
+            font-size: 1em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .resume-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume-button:hover {
+            background-color: #764ba2;
+        }
+
+        section {
+            padding: 30px 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: #764ba2;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        h3:first-of-type {
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .lab-description {
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .profile-photo {
+                width: 140px;
+                height: 140px;
+            }
+
+            section {
+                padding: 20px 15px;
+            }
+
+            header {
+                padding: 30px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Elsy Andrade</h1>
+                <div class="degree">Bachelor of Science in Computer & Information Science</div>
+                <div class="specialization">Cyber and Information Security Technology | Cloud Computing Concentration</div>
+            </div>
+        </header>
+
+        <div class="profile-section">
+            <img src="assets/Profile Picture.jpeg" alt="Profile photo of Elsy Andrade" class="profile-photo">
+            <a href="assets/Elsy Andrade Resume.pdf" target="_blank" class="resume-button">📄 View Resume</a>
+        </div>
+
+        <div class="summary">
+            <h2>About Me</h2>
+            <p>I am an undergraduate student pursuing a degree in Computer & Information Science with a focus on cybersecurity and cloud computing. Through hands-on coursework and virtual lab environments, I am developing foundational expertise in Linux system administration, network configuration, and Microsoft Azure cloud infrastructure. I am committed to building a strong technical foundation in both cybersecurity principles and cloud deployment practices.</p>
+        </div>
+
+        <section class="skills-section">
+            <h2>Skills & Core Competencies</h2>
+            <ul>
+                <li>Linux Administration Basics (user/permission management, file systems, command-line tools)</li>
+                <li>Networking Fundamentals (TCP/IP, DNS, DHCP, VLANs, subnetting)</li>
+                <li>Network Troubleshooting and Diagnostics</li>
+                <li>Microsoft Azure Identity & Access Management (IAM fundamentals)</li>
+                <li>Cloud Computing Basics (virtual machines, storage, networking concepts)</li>
+                <li>Security Fundamentals (authentication, authorization, basic cryptography concepts)</li>
+                <li>Network Packet Analysis and Protocol Understanding</li>
+                <li>Virtual Lab Environment Configuration and Management</li>
+            </ul>
+        </section>
+
+        <section class="projects-section">
+            <h2>Labs & Project Experience</h2>
+
+            <h3>Linux Administration Labs</h3>
+            <p class="lab-description">Completed hands-on labs focused on Linux system administration, including user account creation and management, file system permissions, directory structure navigation, and command-line scripting. Gained practical experience with directory services, user role management, and basic system hardening techniques.</p>
+
+            <h3>Networking Labs</h3>
+            <p class="lab-description">Conducted coursework-based networking labs involving network topology design, IP addressing and subnetting, VLAN configuration, and protocol analysis. Practiced network troubleshooting methodologies and documented communication protocols across multiple network environments.</p>
+
+            <h3>Cloud Computing Labs in Microsoft Azure</h3>
+            <p class="lab-description">Completed foundational Azure labs covering virtual machine deployment, cloud networking configuration, storage services, and identity management basics. Explored Azure portal navigation, resource group management, and initial security best practices within cloud-based environments.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Elsy Andrade. All rights reserved.</p>
+    </footer>
+</body>
 </html>
